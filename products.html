@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - Techie Gadgets</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Techie Gadgets</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-grid">
+    <article class="product-card">
+      <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg" alt="Wireless Headphones" />
+      <h3>Wireless Headphones</h3>
+      <p>High-fidelity sound with noise cancellation.</p>
+      <button onclick="addToCart('Wireless Headphones')">Add to Cart</button>
+    </article>
+
+    <article class="product-card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="Smartphone" />
+      <h3>Smartphone</h3>
+      <p>Latest model with cutting-edge features.</p>
+      <button onclick="addToCart('Smartphone')">Add to Cart</button>
+    </article>
+
+    <article class="product-card">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Smartwatch" />
+      <h3>Smartwatch</h3>
+      <p>Stay connected on the go with health tracking.</p>
+      <button onclick="addToCart('Smartwatch')">Add to Cart</button>
+    </article>
+
+    <article class="product-card">
+      <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg" alt="Laptop" />
+      <h3>Laptop</h3>
+      <p>Powerful performance for work and play.</p>
+      <button onclick="addToCart('Laptop')">Add to Cart</button>
+    </article>
+  </section>
+  <section class="product-grid">
+    <!-- Existing products... -->
+  
+    <article class="product-card">
+      <img src="images/tablet.jpg" alt="Tablet" />
+      <h3>Tablet</h3>
+      <p>Sleek design with powerful performance for work and play.</p>
+      <button onclick="addToCart('Tablet')">Add to Cart</button>
+    </article>
+  
+    <article class="product-card">
+      <img src="images/bluetooth-speaker.jpg" alt="Bluetooth Speaker" />
+      <h3>Bluetooth Speaker</h3>
+      <p>Portable speaker with deep bass and long battery life.</p>
+      <button onclick="addToCart('Bluetooth Speaker')">Add to Cart</button>
+    </article>
+  
+    <article class="product-card">
+      <img src="images/gaming-console.jpg" alt="Gaming Console" />
+      <h3>Gaming Console</h3>
+      <p>Next-gen console with immersive graphics and gameplay.</p>
+      <button onclick="addToCart('Gaming Console')">Add to Cart</button>
+    </article>
+  
+    <article class="product-card">
+      <img src="images/digital-camera.jpg" alt="Digital Camera" />
+      <h3>Digital Camera</h3>
+      <p>Capture stunning photos with high-resolution imaging.</p>
+      <button onclick="addToCart('Digital Camera')">Add to Cart</button>
+    </article>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 Techie Gadgets</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
